@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2292a562-11a2-48fb-b431-7eefc6bd3d44">
+  <name>ВсеОтчетыДокументыИФайлы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reports</value>
+  </synonym>
+  <comment></comment>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Все отчеты раздела &quot;Документы и файлы&quot;</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>All reports from &quot;Documents and files&quot; section</value>
+  </toolTip>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec358eb-11ab-4ff0-b197-2876af9ce184">
+  <name>ВыполнениеЗадачПоПочте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнение задач по почте</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tasks execution by email</value>
+  </synonym>
+  <comment></comment>
+  <content>CommonModule.ВыполнениеЗадачПоПочтеКлиент</content>
+  <content>CommonModule.ВыполнениеЗадачПоПочтеСервер</content>
+  <content>InformationRegister.ПротоколВыполненияЗадачПоПочте</content>
+  <content>ScheduledJob.ВыполнениеЗадачПоПочте</content>
+  <content>Constant.МаксимальныйРазмерВложенийВУведомленииНовойЗадачи</content>
+  <content>Constant.СрокХраненияПротоколовВыполненияЗадачПоПочте</content>
+  <content>Enum.РезультатВыполненияЗадачиПоПочте</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемыДокументооборота.Subsystem.БизнесПроцессыИЗадачи</parentSubsystem>
+</mdclass:Subsystem>
