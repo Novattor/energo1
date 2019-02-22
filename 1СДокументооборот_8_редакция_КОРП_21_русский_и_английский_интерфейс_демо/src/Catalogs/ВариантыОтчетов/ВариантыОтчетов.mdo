@@ -749,6 +749,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="8b1f8e97-8783-40d9-a6a5-e2ed15428e07">
+    <name>Реквизит2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит2</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="3df19dbf-efe7-4e31-99ad-fafb59ec1329">
     <producedTypes>
       <objectType typeId="abf3e560-3e61-416a-8893-8b9da792c5a0" valueTypeId="07793fd1-5e8e-435e-98ed-fa2646c0239b"/>
