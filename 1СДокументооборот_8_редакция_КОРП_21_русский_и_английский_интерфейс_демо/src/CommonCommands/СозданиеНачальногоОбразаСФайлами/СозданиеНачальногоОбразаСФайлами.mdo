@@ -1,30 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d975aef4-8da8-4486-baeb-a99c48cff0ec">
-  <name>СозданиеНачальногоОбразаСФайлами</name>
-  <synonym>
-    <key>ru</key>
-    <value>Создание начального образа с файлами</value>
-  </synonym>
-  <synonym>
-    <key>en</key>
-    <value>Create initial image with files</value>
-  </synonym>
-  <comment></comment>
-  <group>FormCommandBarImportant</group>
-  <commandParameterType>
-    <types>ExchangePlanRef.Полный</types>
-  </commandParameterType>
-  <representation>Picture</representation>
-  <toolTip>
-    <key>ru</key>
-    <value>Создание начального образа подчиненного узла с файлами</value>
-  </toolTip>
-  <toolTip>
-    <key>en</key>
-    <value>Creation of initial image of subordinate node with its files</value>
-  </toolTip>
-  <picture xsi:type="core:PictureRef">
-    <picture>StdPicture.CreateInitialImage</picture>
-  </picture>
-  <shortcut></shortcut>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="d975aef4-8da8-4486-baeb-a99c48cff0ec">
+	<name>СозданиеНачальногоОбразаСФайлами</name>
+	<synonym>
+		<key>ru</key>
+		<value>Создание начального образа с файлами</value>
+	</synonym>
+	<synonym>
+		<key>en</key>
+		<value>Create initial image with files</value>
+	</synonym>
+	<comment></comment>
+	<group>FormCommandBarImportant</group>
+	<commandParameterType>
+		<types>ExchangePlanRef.Полный</types>
+	</commandParameterType>
+	<representation>Picture</representation>
+	<toolTip>
+		<key>ru</key>
+		<value>Создание начального образа подчиненного узла с файлами</value>
+	</toolTip>
+	<toolTip>
+		<key>en</key>
+		<value>Creation of initial image of subordinate node with its files</value>
+	</toolTip>
+	<picture xsi:type="core:PictureRef">
+		<picture>StdPicture.CreateInitialImage</picture>
+	</picture>
+	<shortcut></shortcut>
 </mdclass:CommonCommand>

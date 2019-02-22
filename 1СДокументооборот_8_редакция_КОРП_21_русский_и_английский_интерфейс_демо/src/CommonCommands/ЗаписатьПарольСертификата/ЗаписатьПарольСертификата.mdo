@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e2f53a0-44a8-4cab-a323-b132f19df2c9">
-  <name>ЗаписатьПарольСертификата</name>
-  <synonym>
-    <key>ru</key>
-    <value>Запись пароля сертификата</value>
-  </synonym>
-  <synonym>
-    <key>en</key>
-    <value>Save password of certificate</value>
-  </synonym>
-  <comment></comment>
-  <group>FormCommandBarImportant</group>
-  <commandParameterType>
-    <types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
-  </commandParameterType>
-  <representation>Auto</representation>
-  <toolTip>
-    <key>ru</key>
-    <value>Записывает пароль сертификата в информационную базу (в открытом виде),
-чтобы использовать его без необходимости ввода.
-Это рискованная операция.
-Рекомендуется шифровать данные, передаваемые к серверу и
-быть уверенным в надежности администратора.</value>
-  </toolTip>
-  <toolTip>
-    <key>en</key>
-    <value>Stores the password of digital certificate into the infobase for further use. This is an extremely unsafe action. Ensure that your data channel is secure and system administrator credible.</value>
-  </toolTip>
-  <shortcut></shortcut>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="2e2f53a0-44a8-4cab-a323-b132f19df2c9">
+	<name>ЗаписатьПарольСертификата</name>
+	<synonym>
+		<key>ru</key>
+		<value>Запись пароля сертификата</value>
+	</synonym>
+	<synonym>
+		<key>en</key>
+		<value>Save password of certificate</value>
+	</synonym>
+	<comment></comment>
+	<group>FormCommandBarImportant</group>
+	<commandParameterType>
+		<types>CatalogRef.СертификатыКлючейЭлектроннойПодписиИШифрования</types>
+	</commandParameterType>
+	<representation>Auto</representation>
+	<toolTip>
+		<key>ru</key>
+		<value>Записывает пароль сертификата в информационную базу (в открытом
+			виде),
+			чтобы использовать его без необходимости ввода.
+			Это рискованная операция.
+			Рекомендуется шифровать данные, передаваемые к серверу и
+			быть уверенным в надежности администратора.</value>
+	</toolTip>
+	<toolTip>
+		<key>en</key>
+		<value>Stores the password of digital certificate into the infobase
+			for further use. This is an extremely unsafe action. Ensure that your
+			data channel is secure and system administrator credible.</value>
+	</toolTip>
+	<shortcut></shortcut>
 </mdclass:CommonCommand>
